@@ -1,9 +1,10 @@
+{% load static %}
 <nav>
     <ul>
-        <li>Home</li>
+        <li><a href="{% url 'home' %}">Home</a></li>
          <li>About Us</li>
         <li>Gallery</li>
-        <li>Plans</li>
+        <li><a href="{% url 'plans' %}">Plans</a></li>
         <li>Contact</li>
     </ul>
     
